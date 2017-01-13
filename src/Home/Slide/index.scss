@@ -1,0 +1,34 @@
+// @Author: haiwang
+// @Date:   2017-01-13 14:09:15
+// @Email:  violet0sea@163.com
+// @Last modified by:   haiwang
+// @Last modified time: 2017-01-13 14:45:08
+
+
+
+.Slide {
+    width: 100%;
+    height: 100%;
+    .list{
+        position: fixed;
+        z-index: 999;
+        top: 50%;
+        right: 20px;
+        .listPoint {
+            width: 20px;
+            height: 20px;
+            background-color: violet;
+            border-radius: 50%;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    }
+    .pageview {
+        height: 100%;
+        h3 {
+            font-size: 5em;
+            color: snow;
+            text-align: center;
+        }
+    }
+}

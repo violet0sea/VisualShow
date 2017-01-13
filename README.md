@@ -10,7 +10,7 @@
 
 #### xxx为项目目录名
 
-1. git clone https://github.com/FunctionRun/FEscaffold.git  xxx
+1. git clone https://github.com/violet0sea/VisualShow.git xxx
 
 2. cd xxx
 

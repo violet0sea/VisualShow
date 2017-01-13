@@ -2,19 +2,21 @@
 // @Date:   2017-01-13 11:44:28
 // @Email:  violet0sea@163.com
 // @Last modified by:   haiwang
-// @Last modified time: 2017-01-13 11:56:33
+// @Last modified time: 2017-01-13 13:54:38
 
 
-
-.Header {
-    padding-left: 50px;
-    display: flex;
-    .pageName {
+.App {
+    max-height: 1080px;
+    .Header {
+        padding-left: 50px;
         display: flex;
-        align-items: center;
-        width: 40%;
-        span {
-            font-size: 1.5em;
+        .pageName {
+            display: flex;
+            align-items: center;
+            width: 40%;
+            span {
+                font-size: 1.5em;
+            }
         }
     }
 }
