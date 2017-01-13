@@ -1,0 +1,32 @@
+// @Author: haiwang
+// @Date:   2017-01-12 18:02:24
+// @Email:  violet0sea@163.com
+// @Last modified by:   haiwang
+// @Last modified time: 2017-01-13 11:43:54
+
+$fontColor: snow;
+$activeColor: cyan;
+
+.Nav {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    .navItem {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 10px 40px;
+        height: 40px;
+        cursor: pointer;
+        font-size: 1.3em;
+        a {
+            color: $fontColor;
+        }
+    }
+    .active {
+        border-bottom: 3px solid $activeColor;
+        a {
+            color: $activeColor;
+        }
+    }
+}

@@ -1,22 +1,30 @@
-/*
-* @Author: FunctionRun
-* @Date:   2017-01-10 10:15:25
-* @Last Modified by:   FunctionRun
-* @Last Modified time: 2017-01-10 11:40:40
-* @Email: zhangyujie3344521@163.com
-* @File Path: /Users/zhangyujie/GitHub/FEscaffold/index.js
-* @File Name: index.js
-* @Descript:
+/**
+* @Author: haiwang
+* @Date:   2017-01-12 16:26:03
+* @Email:  violet0sea@163.com
+* @Last modified by:   haiwang
+* @Last modified time: 2017-01-12 18:18:25
 */
+
+
 
 'use strict';
 
-console.log('项目测试成功');
 
-const author = 'zhangyujie';
 
-setTimeout(()=> {
+import React from 'react'; // babel转义后使用React.creatElement, 需要引入React
+import ReactDOM from 'react-dom';
+import { Router, browserHistory } from 'react-router';
+import routes from './routes';
+import './public/css/reset.css';
+import './public/css/index.scss';
 
-    console.log(author);
+const container = document.querySelector('.visualContainer');
 
-}, 4000);
+ReactDOM.render(
+    <Router
+        routes={routes}
+        history={browserHistory}
+    />,
+    container
+);
