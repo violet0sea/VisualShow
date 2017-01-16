@@ -2,7 +2,7 @@
 * @Author: zhangyujie
 * @Date:   2016-02-22 16:54:49
 * @Last modified by:   haiwang
-* @Last modified time: 2017-01-13 11:24:30
+* @Last modified time: 2017-01-16 11:40:21
 * @Email: zhangyujie3344521@163.com
 * @File Path: /Users/zhangyujie/node/www/tueasy5.0/FE/src/container/App/reset.css
 * @File Name: reset.css
@@ -31,8 +31,6 @@ html, input, textarea {
 	color: #53585f;
 }
 body {
-
-	overflow: hidden;
 	height: 100%;
 }
 body, td, th {

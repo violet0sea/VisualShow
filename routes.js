@@ -3,7 +3,7 @@
 * @Date:   2017-01-12 17:05:39
 * @Email:  violet0sea@163.com
 * @Last modified by:   haiwang
-* @Last modified time: 2017-01-13 10:57:17
+* @Last modified time: 2017-01-16 14:34:59
 */
 
 
@@ -11,7 +11,6 @@
 import { Route, IndexRoute } from 'react-router';
 import  App from './src/app';
 import { Api, English, Example, Home, QuickStart } from './src/index';
-console.log('index', Api)
 
 const rootRoute = {
     component: App,

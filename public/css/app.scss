@@ -2,14 +2,18 @@
 // @Date:   2017-01-13 11:44:28
 // @Email:  violet0sea@163.com
 // @Last modified by:   haiwang
-// @Last modified time: 2017-01-13 13:54:38
+// @Last modified time: 2017-01-16 14:51:31
 
 
 .App {
-    max-height: 1080px;
     .Header {
         padding-left: 50px;
         display: flex;
+        position: fixed;
+        width: 100%;
+        background-color: #333;
+        box-sizing: border-box;
+        z-index: 999;
         .pageName {
             display: flex;
             align-items: center;

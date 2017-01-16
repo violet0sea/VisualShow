@@ -2,7 +2,7 @@
 // @Date:   2017-01-13 14:09:15
 // @Email:  violet0sea@163.com
 // @Last modified by:   haiwang
-// @Last modified time: 2017-01-13 14:45:08
+// @Last modified time: 2017-01-16 14:50:34
 
 
 
@@ -25,10 +25,30 @@
     }
     .pageview {
         height: 100%;
-        h3 {
-            font-size: 5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            display: block;
+            padding: 5px 40px;
+            font-size: 1.5em;
+            border: 1px solid #eee;
+        }
+        h4 {
+            position: relative;
+            top: -400px;
             color: snow;
             text-align: center;
         }
     }
+    .imgpage {
+        img {
+
+        }
+        span {
+
+        }
+    }
+
+
 }

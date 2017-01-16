@@ -2,7 +2,7 @@
  * @Author: FunctionRun
  * @Date:   2017-01-10 10:15:18
 * @Last modified by:   haiwang
-* @Last modified time: 2017-01-12 17:51:43
+* @Last modified time: 2017-01-16 13:44:08
  * @Email: zhangyujie3344521@163.com
  * @File Path: /Users/zhangyujie/GitHub/FEscaffold/webpack.config.js
  * @File Name: webpack.config.js
